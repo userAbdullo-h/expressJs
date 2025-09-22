@@ -1,20 +1,30 @@
 {
-	"name": "express-ls",
-	"version": "1.0.0",
-	"description": "",
-	"main": "app.js",
-	"scripts": {
-		"test": "node app.js",
-		"dev": "nodemon app.js"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"nodemon": "^3.1.10"
-	},
-	"dependencies": {
-		"dotenv": "^17.2.2",
-		"express": "^5.1.0"
-	}
+  "name": "express-ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/userAbdullo-h/expressJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/userAbdullo-h/expressJs/issues"
+  },
+  "homepage": "https://github.com/userAbdullo-h/expressJs#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
