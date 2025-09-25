@@ -27,7 +27,23 @@
 		</nav>
 
 		{{!-- {{content}} --}}
-		<div class='container'>{{{body}}}</div>
+		<div class='container'>
+			{{#if message}}
+				<div
+					class='alert alert-{{message.type}} alert-dismissible fade show'
+					role='alert'
+				>
+					{{message.message}}
+					<button
+						type='button'
+						class='btn-close'
+						data-bs-dismiss='alert'
+						aria-label='Close'
+					></button>
+				</div>
+			{{/if}}
+			{{{body}}}
+		</div>
 
 		<script
 			src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js'
